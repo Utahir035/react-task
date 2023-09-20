@@ -43,7 +43,7 @@
 
   .quote{
     font-size: 34px;
-    margin-top: -10px;
+    margin-top: -5px;
     color: #4D9BD6;
   }
   
@@ -165,7 +165,7 @@
             }
             .quote{
                 font-size: 28px;
-                margin-top: -10px;
+                margin-top: 0px;
                 color: #4D9BD6;
               }
               .responsive-form input[type="text"],
