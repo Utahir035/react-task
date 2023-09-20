@@ -1,0 +1,180 @@
+/* Default styles for the form */
+.form-head{
+    position: relative;
+    left: 20px;
+    height: 20px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #F4C65B;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.responsive-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 40px 30px;
+    border: 1px solid rgb(210, 209, 209);
+    border-radius: 15px;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  
+  .rocket{
+    height: 30px;
+    width: 30px;
+    background-color: #EDF6FC;
+    border-radius: 50%;
+    color: #4D9BD6;
+    border-bottom-left-radius: 0px;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .quote{
+    font-size: 34px;
+    margin-top: -10px;
+    color: #4D9BD6;
+  }
+  
+  /* Styles for form inputs */
+  .responsive-form input[type="text"],
+  .responsive-form input[type="email"]{
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-right: 30px; /* Adjust the padding to make room for the icon */
+    width: 100%;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .input-container {
+    position: relative;
+    width: 350px; /* Adjust the width as needed */
+  }
+  
+  .icon {
+    position: absolute;
+    top: 35%;
+    right: -20px; /* Adjust the positioning as needed */
+    transform: translateY(-50%);
+    color: #9A9A9A;
+    font-size: 20px;
+  }
+  
+  .icon-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon-flex span{
+    margin-top: -5px;
+    color: #c9c8c8;
+  }
+  .method{
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .responsive-form .radio-group label {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #EDF6FC;
+  }
+
+  .radio-group{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .responsive-form .radio-group label {
+    display: block;
+  }
+  
+  .responsive-form .radio-group input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  
+  
+  /* Styles for the submit button */
+  .responsive-form button {
+    padding: 10px;
+    background-color: #F4C65B;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  /* Media query for responsiveness */
+  @media (max-width: 1368px) {
+   
+    .form-head{
+        display: none;
+    }
+  }
+  @media (max-width: 500px) {
+   
+   .responsive-form{
+    padding: 30px 10px;
+   }
+  }
+  @media only screen and (max-width: 460px) {
+    .input-container{
+        width: 300px;
+    }
+    .responsive-form{
+        width: 350px;
+    }
+    }
+    
+    @media only screen and (max-width: 400px) {
+        .input-container{
+            width: 270px;
+        }
+        .responsive-form{
+            width: 320px;
+        }
+        }
+        @media only screen and (max-width: 360px) {
+            .responsive-form{
+                height: 400px;
+            }
+            .input-container{
+                width: 250px;
+            }
+            .responsive-form{
+                width: 300px;
+            }
+            .quote{
+                font-size: 28px;
+                margin-top: -10px;
+                color: #4D9BD6;
+              }
+              .responsive-form input[type="text"],
+              .responsive-form input[type="email"]{
+                margin-bottom: 10px;
+                padding: 10px;
+                padding-right: 20px; /* Adjust the padding to make room for the icon */
+                width: 100%;
+                box-shadow: 5px 5px 5px gray;
+              }
+            }    
+  

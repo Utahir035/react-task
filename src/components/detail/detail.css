@@ -1,0 +1,116 @@
+.detail{
+    padding: 50px 0px;
+}
+.point{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 10px;
+    margin-top: 15px;
+}
+.point span{
+    color:  #56ABEF;
+}
+.context-D{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.content-D{
+    text-align: left;
+    width: 40%;
+}
+.content-D h1{
+    color: #56ABEF;
+}
+.picture {
+    height: 460px;
+}
+.bold{
+    color: #F4C65B;
+}
+.hr{
+    width: 50px;
+    height: 3px;
+    background-color: #F4C65B;
+    position: relative;
+    right: 45%;
+}
+.business{
+    padding: 60px;
+}
+.business-block{
+    display: flex;
+    justify-content: center;
+}
+.business-block h2{
+    color: #56ABEF;
+    width: 30%;
+    padding: 0 100px;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+}
+.box{
+    height: 80px;
+    width: 150px;
+    border-left: 1px solid gray;
+}
+.box h3{
+    font-size: 40px;
+    color: #F4C65B;
+    margin-top: 0px;
+}
+.box p{
+    font-size: 12px;
+    margin-top: -30px;
+}
+
+@media only screen and (max-width: 1000px) {
+.context-D{
+    display: flex;
+    flex-direction: column;
+}
+.content-D{
+    width: 80%;
+    padding: 30px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    .business-block h2{
+        width: 100%;
+        padding: 0;
+    }
+    .business-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        width: 100px;
+    }
+    .block{
+        width: 100%;
+    }
+}
+@media (max-width: 470px) {
+   
+    .picture {
+        height: 320px;
+    }
+    .content-D h1{
+        font-size: 24px;
+    }
+    .box h3{
+        font-size: 24px;
+    }
+    .box p{
+        margin-top: -15px;
+    }
+    .business{
+        padding: 30px;
+    }
+  }
